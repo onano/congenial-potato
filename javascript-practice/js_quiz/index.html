@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Quiz - A Single Page Practice Quiz</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
+    <body>
+        <!-- Container for everything -->
+        <div id="container">
+            <header>
+                <h1>The JavaScript Quiz</h1>
+                <p>Test your javascript knowledge here..</p>
+            </header>
+            <!-- empty div for results -->
+            <section>
+                <div id="results"></div>
+            </section>
+            <!-- here lies our forum -->
+            <section id="#form">
+               <form name="quizForm" onsubmit="return submitAnswer()">
+                    <h3>1. In which element do we put our JavaScript Code?</h3>
+                    <input type="radio" name="q1" id="q1a" value="a">a. &lt;script&gt; <br>
+                    <input type="radio" name="q1" id="q1b" value="b">b. &lt;html&gt; <br>
+                    <input type="radio" name="q1" id="q1c" value="c">c. &lt;head&gt; <br>
+                    <input type="radio" name="q1" id="q1d" value="d">d. &lt;body&gt; <br>
+                    <br>
+                    <h3>2. Is JavaScript a complied language?</h3>
+                    <input type="radio" name="q2" id="q2a" value="a">a. &lt;True&gt; <br>
+                    <input type="radio" name="q2" id="q2b" value="b">b. &lt;false&gt; <br>
+                    <input type="radio" name="q2" id="q2c" value="c">c. &lt;Fuck off!&gt; <br>
+                    <input type="radio" name="q2" id="q2d" value="d">d. &lt;Get rekt&gt; <br>
+                    <br>
+                    <h3>3. A variable in JavaScript must start with "$"</h3>
+                    <input type="radio" name="q3" id="q3a" value="a">a. &lt;No&gt; <br>
+                    <input type="radio" name="q3" id="q3b" value="b">b. &lt;yes&gt; <br>
+                    <input type="radio" name="q3" id="q3c" value="c">c. &lt;it's #&gt; <br>
+                    <input type="radio" name="q3" id="q3d" value="d">d. &lt;get rekt!&gt; <br>
+                    <br>
+                    <h3>4. What paradigm JavaScript follows?</h3>
+                    <input type="radio" name="q4" id="q4a" value="a">a. &lt;Functional&gt; <br>
+                    <input type="radio" name="q4" id="q4b" value="b">b. &lt;OOP&gt; <br>
+                    <input type="radio" name="q4" id="q4c" value="c">c. &lt;Structure&gt; <br>
+                    <input type="radio" name="q4" id="q4d" value="d">d. &lt;Multi Para&gt; <br>
+                    <br>
+                    <h3>5. which tag attr is used for linking external JavaScript Code?</h3>
+                    <input type="radio" name="q5" id="q5a" value="a">a. &lt;src&gt; <br>
+                    <input type="radio" name="q5" id="q5b" value="b">b. &lt;Jon snow&gt; <br>
+                    <input type="radio" name="q5" id="q5c" value="c">c. &lt;snu snu&gt; <br>
+                    <input type="radio" name="q5" id="q5d" value="d">d. &lt;body&gt; <br>
+                    <br>
+                    <br><br>
+                    <input type="submit" value="Submit Answers">
+                </form>
+            </section>
+        
+            <footer>
+                <p>Copyright &copy; All Rights Reserved.</p>
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+
+</html>
