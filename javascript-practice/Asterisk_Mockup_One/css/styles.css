@@ -1,0 +1,99 @@
+/* General Rules */
+
+body {
+    width: 1000px;
+    margin: 20px auto; /*Top-bottom :  20 , right-left: auto*/
+    overflow: auto;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* container */
+#container {
+    width: 980px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+/* header section */ 
+
+header a {
+    color: #ffffff;
+}
+
+header h3 {
+    text-decoration: underline;
+}
+
+header div[id="nav-container"] {
+    background: #333333;
+}
+
+header nav {
+    text-align: right;
+}
+
+header li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border-right: 1px solid white;
+    font-size: 16px;
+}
+
+
+/* body-carousel */
+
+.slider {
+    width: 940px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: 2px solid #666666;
+    border-radius: 5px;
+}
+
+.slider img {
+    width: 940px;
+    height: 350px;
+}
+
+.slide {
+    position: absolute;
+}
+
+.slide-text {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.5);
+}
+
+.slide-text p {
+    padding: 0px;
+}
+
+#left, #right {
+    position: relative;
+    cursor: pointer;
+    margin-top: 130px;
+    z-index: 100;
+    float: left;
+}
+
+#left {
+    margin-right: -45px;
+}
+
+#right {
+    margin-left: -45px;
+}
