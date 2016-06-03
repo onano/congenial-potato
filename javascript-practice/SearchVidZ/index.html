@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SearchVidZ - Search The YT Videos</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav class="navbar cf">
+                    <div id="logo"><a href="index.html">
+                        <h1>Search<span>Vidz</span></h1>
+                     </a></div>
+                    <div id="search-bar">
+                        <form name="search-form" id="search-form">
+                            <div id="queryBar">
+                                <input type="search" id="searchBox" name="search" placeholder="Search">
+                            </div>
+                            <input type="submit" value="Submit" id="searchBtn" onsubmit="return getVidz()">
+                        </form>   
+                    </div>
+                </nav>
+            </header>
+            <hr>
+            <!-- Search Content will be displayed here -->
+            <ul class="results"></ul>
+            <!-- Prev/Next Button FTW! -->
+            <div id="buttons"></div>
+            
+            <hr>
+            <footer>
+                <p>Copyright &copy; All Rights Reserved.</p>
+            </footer>
+            
+        </div>
+            <!-- scripts -->
+            <script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+            <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>

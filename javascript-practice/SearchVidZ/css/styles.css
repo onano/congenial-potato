@@ -1,0 +1,102 @@
+#container {
+    line-height: 1.6em;
+    font-size: 14px; 
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    width: 80%;
+}
+
+header {
+    margin: 10px auto;
+}
+
+header h1 > span {
+    color: firebrick;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+div#logo {
+    float: left;
+    display: inline-block;
+}
+
+div#search-bar {
+    float: left;
+    margin: 17px 20px;
+    position: relative;
+}
+
+div#queryBar {
+    display: inline-block;
+}
+
+#searchBox {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-shadow: inset 1px 1px rgba(0,0,0,0.5), 0 0 0 1px #f0f0f0;
+    -webkit-box-shadow: inset 1px 1px rgba(0,0,0,0.5), 0 0 0 1px #f0f0f0;
+    box-shadow: inset 1px 1px rgba(0,0,0,0.5), 0 0 0 1px #f0f0f0;
+    width: 80%;
+    background: #fff;
+    color: #ccc;
+    font-size: 1.3em;
+    border-bottom-color: #d2e2e7;
+    border: 1px solid #c8c8c8;
+    margin-right: 4px;
+}
+
+/*
+#searchBtn {
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid #c8c8c8;
+    font-size: 1.3em;
+    top: 0;
+    left: 100%;
+    margin-left: -35px;
+    position: absolute;
+}*/
+
+
+
+
+
+
+
+
+
+
+/****************    CLEARFIX        ****************/
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
